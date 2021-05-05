@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML formの勉強部屋</title>
+    <meta name="description" content="HTMLの勉強用です" />
+  </head>
+
+  <body>
+    <header>
+      <h1>HTML formの練習です</h1>
+    </header>
+    <hr />
+
+    <section>
+      <h1>Textbox</h1>
+      <h2>normal textbox</h2>
+      <input type="text" />
+
+      <h2>textbox with a text</h2>
+      <input type="text" value="This is a text box." />
+
+      <h2>textbox with a placeholder</h2>
+      <input type="text" placeholder="This is a placeholder." />
+      <h2>textbox with a label and a button</h2>
+      <form action="process.php" method="post">
+        <label>Label<input type="text" /></label>
+        <button>Submit</button>
+      </form>
+    </section>
+
+    <hr />
+    <section>
+      <h1>Textarea</h1>
+      <label for="textarea">Label</label>
+      <textarea
+        name=""
+        id="textarea"
+        cols="30"
+        rows="4"
+        placeholder="This is a textarea."
+      ></textarea>
+    </section>
+    <hr />
+    <section>
+      <h1>Dropdown list</h1>
+      <label for="dropdown">What is your favorite animal?</label>
+      <select name="" id="dropdown" size="1">
+        <option value="">Dog</option>
+        <option value="">Cat</option>
+        <option value="">Hamster</option>
+        <option value="">Other</option>
+      </select>
+    </section>
+    <hr />
+    <section>
+      <h1>Check box</h1>
+      <fieldset>
+        <legend>What is your favorite color?</legend>
+        <label for=""><input type="checkbox" />Red</label>
+        <label for=""><input type="checkbox" />Blue</label>
+        <label for=""><input type="checkbox" />Green</label>
+        <label for=""><input type="checkbox" />Yellow</label>
+      </fieldset>
+    </section>
+    <hr />
+    <section>
+      <h1>Radio button</h1>
+      <fieldset>
+        <legend>What is your most favorite color?</legend>
+        <label for=""><input type="radio" name="radio1" />Red</label>
+        <label for=""><input type="radio" name="radio1" />Blue</label>
+        <label for=""><input type="radio" name="radio1" />Green</label>
+        <label for=""><input type="radio" name="radio1" />Yellow</label>
+      </fieldset>
+    </section>
+  </body>
+</html>
